@@ -36,4 +36,4 @@ async function getChats(req, res) {
   });
 }
 
-module.exports = { createChat };
+module.exports = { createChat, getChats };
